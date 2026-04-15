@@ -1,0 +1,9 @@
+Commands used to setup the groups
+
+Create groups:
+
+groupadd business
+groupadd finance
+groupadd security
+
+usermod -aG "$dep" "$user"
